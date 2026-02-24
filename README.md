@@ -18,27 +18,15 @@ A full-stack web application for managing campus resources including blocks, cla
 - **Modern Stack**: Django REST + React 19 + Tailwind CSS
 - **One-Command Setup**: Get running in under 2 minutes
 
-## 🚀 Quick Start (One Command)
 
-**For Windows users:**
 
-```powershell
-.\start.ps1
-```
-
-That's it! The script will:
-- ✅ Set up Python virtual environment
-- ✅ Install all backend dependencies  
-- ✅ Run database migrations
-- ✅ Seed demo data (so dashboards never look empty during demos)
-- ✅ Install frontend dependencies
-- ✅ Start both backend and frontend servers
+Note: the `start.ps1` automation script has been removed from this repository. To run the application locally you must start the backend and frontend servers separately (see Manual Setup below).
 
 Then open:
 - **Application**: http://localhost:5173
 - **Login (demo accounts)**: see the **Login Credentials** section below
 
-> 🎯 **First Steps**: Login using any demo account below, then explore Admin / Faculty / Student dashboards.
+🎯 **First Steps**: Start both servers, then login using any demo account below and explore dashboards.
 
 ---
 
@@ -85,7 +73,7 @@ Then open:
    - **Manual Form**: Fill details with username/password
    - **CSV Upload**: Bulk import from CSV file
 
-> 💡 **Note**: Running `./start.ps1` automatically creates demo accounts and seeds sample courses/enrollments.
+
 
 ---
 
@@ -105,7 +93,7 @@ Campus Management 4/
 │   │   ├── components/    # Reusable components
 │   │   └── auth/          # Authentication logic
 │   └── package.json       # Node dependencies
-├── start.ps1              # One-command startup script
+
 └── README.md              # This file
 ```
 

@@ -131,8 +131,8 @@ export default function Login() {
           <div className="grid grid-cols-3 gap-2 text-xs">
             {[
               { role: 'Admin', user: 'admin', pass: 'Demo@123' },
-              { role: 'Faculty', user: 'faculty1', pass: 'Faculty@123' },
-              { role: 'Student', user: 'student1', pass: 'Student@123' },
+              { role: 'Faculty', user: 'faculty1', pass: 'Demo@123' },
+              { role: 'Student', user: 'student1', pass: 'Demo@123' },
             ].map((demo) => (
               <button
                 key={demo.role}

@@ -3,7 +3,7 @@ import axios from 'axios'
 import { getAccessToken, clearTokens } from '../auth/tokenStorage'
 
 export const api = axios.create({
-  baseURL: 'http://127.0.0.1:8001/api',
+  baseURL: 'http://127.0.0.1:8000/api',
 })
 
 api.interceptors.request.use((config) => {
